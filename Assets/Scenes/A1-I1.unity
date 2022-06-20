@@ -261,7 +261,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Men (Left Corner Below)
+      value: Jean (Left Corner Below)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
+      propertyPath: NPC
+      value: Jean
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -407,7 +411,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -423,7 +427,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Men (Left Corner Above)
+      value: Uncle (Left Corner Above)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
+      propertyPath: NPC
+      value: Uncle
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -496,7 +504,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Men(Right Corner)
+      value: Grandma (Right Corner)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
+      propertyPath: NPC
+      value: Grandma
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -569,7 +581,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Woman (Above)
+      value: Mom (Above)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
+      propertyPath: NPC
+      value: Mom
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -642,7 +658,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Woman (Below)
+      value: Cousin (Below)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
+      propertyPath: NPC
+      value: Cousin
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -719,7 +739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3878851454719376581, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3878851454719376581, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_LocalPosition.x
@@ -793,6 +813,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3952252126291952479, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 27.499634
+      objectReference: {fileID: 0}
     - target: {fileID: 3952469163211030237, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -807,7 +831,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6940846176367558824, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: loadSprites.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6940846176367558824, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: loadSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: ff579a61cec4ea8478327ffdb786e74a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
