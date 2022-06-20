@@ -1,0 +1,43 @@
+﻿title: Grandma
+tags:
+position: -66,-42
+---
+<<Act Grandma - - - black>>
+Grandma: So what's your business?
+-> I'm lost!
+    <<jump Directions>>
+-> What's YOUR business?
+    <<jump Business>>
+-> Nothing in particular.
+    Grandma: Huh, alright.
+===
+title: Directions
+position: 278,41
+---
+Grandma: Lost?
+Grandma: In somebody else's house?
+Grandma: What makes you think talking to me will help?
+
+<<jump ReQuestion>>
+===
+title: Business
+position: -79,223
+---
+Grandma: Oh, you're about to find out if you don't watch that mouth.
+The old lady picks up a hazelnut from her basket and bonks it on your head.
+It's hard!
+The old lady snickers.
+
+<<jump ReQuestion>>
+===
+title: ReQuestion
+position: 228,190
+---
+Grandma: Anything else?
+-> I'm lost!
+    <<jump Directions>>
+-> What's YOUR business?
+    <<jump Business>>
+-> Nothing in particular.
+    Grandma: Huh, alright.
+===
