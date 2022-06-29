@@ -9,10 +9,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Jean
   - Water
   - UI
-  - 
+  - Uncle
   - 
   - 
   - 
@@ -41,4 +41,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 188455715
+    locked: 0
+  - name: 0
+    uniqueID: 1892866755
+    locked: 0
+  - name: 2
+    uniqueID: 3373034779
+    locked: 0
+  - name: 3
+    uniqueID: 4064163839
+    locked: 0
+  - name: 4
+    uniqueID: 785712019
+    locked: 0
+  - name: 5
+    uniqueID: 2058770131
     locked: 0
