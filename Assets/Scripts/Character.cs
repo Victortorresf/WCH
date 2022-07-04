@@ -10,11 +10,12 @@ public class Character : MonoBehaviour, IClickable
     public string NPC;
     private string loadAudio;
     private bool coroutineAllowed;
-
+    private bool coroutineAllowed2;
 
     void Start()
     {
         coroutineAllowed = true;
+        coroutineAllowed2 = true;
     }
 
     public void Click()
@@ -26,11 +27,21 @@ public class Character : MonoBehaviour, IClickable
     {
         if (coroutineAllowed)
         {
-            StartCoroutine("Pulse");
+            StartCoroutine("ScaleUp");
         }
     }
 
-    private IEnumerator Pulse()
+    private void OnMouseExit()
+    {
+        if (coroutineAllowed2)
+        {
+           StartCoroutine("ScaleDown");
+        }
+         
+        coroutineAllowed = true;
+    }
+
+    private IEnumerator ScaleUp()
     {
         coroutineAllowed = false;
 
@@ -43,6 +54,13 @@ public class Character : MonoBehaviour, IClickable
             );
             yield return new WaitForSeconds(0.05f);
         }
+        coroutineAllowed2 = true;
+    }
+
+    private IEnumerator ScaleDown()
+    {
+        coroutineAllowed = false;
+
         for (float i = 0f; i <= 1f; i += 0.1f)
         {
             transform.localScale = new Vector3(
@@ -52,7 +70,6 @@ public class Character : MonoBehaviour, IClickable
             );
             yield return new WaitForSeconds(0.05f);
         }
-        coroutineAllowed = true;
+
     }
-    
 }
