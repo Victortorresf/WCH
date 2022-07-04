@@ -237,6 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420031}
+  clip: {fileID: 0}
 --- !u!4 &637317329
 Transform:
   m_ObjectHideFlags: 0
@@ -259,6 +260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: yarnProject
+      value: 
+      objectReference: {fileID: 7545569452688597077, guid: 63605a6cf2c8f4ce49ae3c879127274e, type: 3}
     - target: {fileID: 3875310925772737407, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_Name
       value: VisualNovelPrefab

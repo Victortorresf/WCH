@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ab26c885016d2b4e814b4479c5c5d80
+guid: 94447df5ff36941e595bbe87c13b2a38
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,17 +8,10 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
-  sourceScripts:
-  - {fileID: 6391573757903218779, guid: 94563c574a4864748b2d8669dbbdf900, type: 3}
-  - {fileID: 6391573757903218779, guid: 8dcaf909f41868a4b8158d0c905cdbc3, type: 3}
-  - {fileID: 6391573757903218779, guid: 22158d39ef9464b5d8682674897d107e, type: 3}
-  - {fileID: 6391573757903218779, guid: e90cbfe35fcfd4049a234fdaec97785e, type: 3}
-  - {fileID: 6391573757903218779, guid: 5a620b160c83d44869ccc0cbb114ae16, type: 3}
-  - {fileID: 6391573757903218779, guid: 91d622124644b4236ab6a1811c7ab642, type: 3}
-  - {fileID: 6391573757903218779, guid: c5f34e634d5714536a45c94794d6324a, type: 3}
+  sourceScripts: []
   compileErrors: []
   serializedDeclarations: []
-  defaultLanguage: en
+  defaultLanguage: en-US
   languagesToSourceAssets: []
   useAddressableAssets: 0
   searchAllAssembliesForActions: 1

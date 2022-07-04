@@ -10550,7 +10550,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Uncle (Left Corner Above)
+      value: Karl (Left Corner Above)
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Layer
@@ -10558,7 +10558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: NPC
-      value: Uncle
+      value: 1-1_Karl
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -11060,6 +11060,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: yarnProject
+      value: 
+      objectReference: {fileID: 7545569452688597077, guid: 38044a6ddfd934b4baeaf8a167788b34, type: 3}
     - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: onCommand.m_PersistentCalls.m_Calls.Array.size
       value: 0
