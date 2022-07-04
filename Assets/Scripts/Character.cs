@@ -25,7 +25,7 @@ public class Character : MonoBehaviour, IClickable
 
     private void OnMouseOver()
     {
-        if (coroutineAllowed)
+        if (coroutineAllowed && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
         {
             StartCoroutine("ScaleUp");
         }
@@ -33,7 +33,7 @@ public class Character : MonoBehaviour, IClickable
 
     private void OnMouseExit()
     {
-        if (coroutineAllowed2)
+        if (coroutineAllowed2 && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
         {
            StartCoroutine("ScaleDown");
         }
