@@ -8,11 +8,51 @@ public class Character : MonoBehaviour, IClickable
 {
 
     public string NPC;
+    private string loadAudio;
+    private bool coroutineAllowed;
 
+
+    void Start()
+    {
+        coroutineAllowed = true;
+    }
 
     public void Click()
     {
         FindObjectOfType<DialogueRunner>().StartDialogue(NPC);
     }
 
+    private void OnMouseOver()
+    {
+        if (coroutineAllowed)
+        {
+            StartCoroutine("Pulse");
+        }
+    }
+
+    private IEnumerator Pulse()
+    {
+        coroutineAllowed = false;
+
+        for (float i = 0f; i <= 1f; i += 0.1f)
+        {
+            transform.localScale= new Vector3(
+            (Mathf.Lerp(transform.localScale.x, transform.localScale.x + 0.025f, Mathf.SmoothStep (0f, 0.2f, i))),
+            (Mathf.Lerp(transform.localScale.y, transform.localScale.y + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+            (Mathf.Lerp(transform.localScale.z, transform.localScale.z + 0.025f, Mathf.SmoothStep(0f, 0.2f, i)))
+            );
+            yield return new WaitForSeconds(0.05f);
+        }
+        for (float i = 0f; i <= 1f; i += 0.1f)
+        {
+            transform.localScale = new Vector3(
+            (Mathf.Lerp(transform.localScale.x, transform.localScale.x - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+            (Mathf.Lerp(transform.localScale.y, transform.localScale.y - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+            (Mathf.Lerp(transform.localScale.z, transform.localScale.z - 0.025f, Mathf.SmoothStep(0f, 0.2f, i)))
+            );
+            yield return new WaitForSeconds(0.05f);
+        }
+        coroutineAllowed = true;
+    }
+    
 }

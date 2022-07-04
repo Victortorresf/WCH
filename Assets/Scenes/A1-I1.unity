@@ -489,6 +489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420031}
+  clip: {fileID: 8300000, guid: d79e4dd4b1d222c48b30383e93761cc1, type: 3}
 --- !u!4 &637317329
 Transform:
   m_ObjectHideFlags: 0
@@ -685,19 +686,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 7.27
+      value: 6.5348506
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 11.53
+      value: 11.069397
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: 0.36757493
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: -0.2303009
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -10641,7 +10642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 12.22
+      value: 6.9191055
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
@@ -10649,7 +10650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: 2.6504478
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -10778,19 +10779,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 11.29
+      value: 7.858383
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 17.27
+      value: 13.860394
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: 1.7158079
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: 1.7048035
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -10923,7 +10924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 13.22
+      value: 7.1693993
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
@@ -10931,7 +10932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: 3.0253
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -11036,19 +11037,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 0
+      value: 3.8924294
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 0
+      value: 5.7142706
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: -0.06901312
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: 0.041407585
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60d700279d694424db76b0b332c898d4, type: 3}
@@ -11059,6 +11060,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: onCommand.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: onCommand.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: onCommand.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3875310925772737407, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_Name
       value: VisualNovelPrefab
@@ -11157,7 +11170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6940846176367558824, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: loadSprites.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6940846176367558824, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: loadSprites.Array.data[0]
