@@ -47,7 +47,7 @@ namespace Yarn.Unity.Example {
 			// have to type out game object names in Yarn scripts (also
 			// gives us a performance increase by avoiding GameObject.Find)
 			runner.AddCommandHandler<string>("Scene", DoSceneChange );
-			runner.AddCommandHandler<string,string,string,string,string>("Act", SetActor );
+			runner.AddCommandHandler<string,string>("Act", SetActor );
 			runner.AddCommandHandler<string,string,string>("Draw", SetSpriteYarn );
 
 			runner.AddCommandHandler<string>("Hide", HideSprite );
@@ -66,8 +66,8 @@ namespace Yarn.Unity.Example {
 			runner.AddCommandHandler<float>("FadeIn", SetFadeIn );
 			runner.AddCommandHandler<string,string,float>("CamOffset", SetCameraOffset );
 
-			runner.AddCommandHandler<string>("ScaleUp", SUp);
-			runner.AddCommandHandler<string>("ScaleDown", SDown);
+			runner.AddCommandHandler<string>("SUp", SUp);
+			runner.AddCommandHandler<string>("SDown", SDown);
 
 			// adds all Resources to internal lists / one big pile... it
 			// will scan inside all subfolders too! note: but when
@@ -81,51 +81,56 @@ namespace Yarn.Unity.Example {
 			}
 		}
 
+		public void SUp(string name)
+        {
+			StartCoroutine("ScaleUp", name);
+        }
 
-	
+		public void SDown(string name)
+		{
+			StartCoroutine("ScaleDown", name);
+		}
+
 		#region YarnCommands
-		
-	public void SUp(string character)
-	{
-		GameObject image = GameObject.Find(character);
+
+		IEnumerator ScaleUp(string character)
+		{
+			GameObject image = GameObject.Find(character);
 			for (float i = 0f; i <= 1f; i += 0.1f)
 			{
 				image.transform.localScale = new Vector3(
-				(Mathf.Lerp(transform.localScale.x, transform.localScale.x + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
-				(Mathf.Lerp(transform.localScale.y, transform.localScale.y + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
-				(Mathf.Lerp(transform.localScale.z, transform.localScale.z + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))));
+				(Mathf.Lerp(image.transform.localScale.x, image.transform.localScale.x + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+				(Mathf.Lerp(image.transform.localScale.y, image.transform.localScale.y + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+				(Mathf.Lerp(image.transform.localScale.z, image.transform.localScale.z + 0.025f, Mathf.SmoothStep(0f, 0.2f, i)))
+				);
+				yield return new WaitForSeconds(0.05f);
 			}
-	}
-
-	public void SDown(string character)
-	{
-		GameObject image = GameObject.Find(character);
-		for (float i = 0f; i <= 1f; i += 0.1f)
-		{
-			image.transform.localScale = new Vector3(
-			(Mathf.Lerp(transform.localScale.x, transform.localScale.x - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
-			(Mathf.Lerp(transform.localScale.y, transform.localScale.y - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
-			(Mathf.Lerp(transform.localScale.z, transform.localScale.z - 0.025f, Mathf.SmoothStep(0f, 0.2f, i)))
-			);
 		}
 
-	}
+		IEnumerator ScaleDown(string character)
+		{
+			GameObject image = GameObject.Find(character);
+			for (float i = 0f; i <= 1f; i += 0.1f)
+			{
+				image.transform.localScale = new Vector3(
+				(Mathf.Lerp(image.transform.localScale.x, image.transform.localScale.x - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+				(Mathf.Lerp(image.transform.localScale.y, image.transform.localScale.y - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+				(Mathf.Lerp(image.transform.localScale.z, image.transform.localScale.z - 0.025f, Mathf.SmoothStep(0f, 0.2f, i)))
+				);
+				yield return new WaitForSeconds(0.05f);
+			}
+		}
 
 
-	/// <summary>changes background image</summary>
-	public void DoSceneChange(string spriteName) {
+		/// <summary>changes background image</summary>
+		public void DoSceneChange(string spriteName) {
 			bgImage.sprite = FetchAsset<Sprite>( spriteName );
 		}
 
 		/// <summary>
 		/// SetActor(actorName,spriteName,positionX,positionY,color) main
 		/// function for moving / adjusting characters</summary>
-		public void SetActor(string actorName, string spriteName, string positionX = "", string positionY = "", string colorHex = "" ) {
-
-			// have to use SetSprite() because par[2] and par[3] might be
-			// keywords (e.g. "left", "right")
-			var newActor = SetSpriteUnity( spriteName, positionX, positionY );
-
+		public void SetActor(string actorName, string colorHex = "" ) {
 			// define text label BG color
             var actorColor = Color.black;
 			if (colorHex != string.Empty && ColorUtility.TryParseHtmlString( colorHex, out actorColor ) ==false ) {
@@ -134,29 +139,17 @@ namespace Yarn.Unity.Example {
 
 			// if the actor is using a sprite already, then clone any
 			// persisting data, and destroy it (just to be safe)
-			if ( actors.ContainsKey(actorName)) {
-				// if any missing position params, assume the actor
-				// position should stay the same
-				var newPos = newActor.rectTransform.anchoredPosition;
-				if ( positionX == string.Empty && positionY == string.Empty ) { // missing 2 params, override both x and y
-					newPos = actors[actorName].rectTransform.anchoredPosition;
-				} else if ( positionY == string.Empty ) { // missing 1 param, override y
-					newPos.y = actors[actorName].rectTransform.anchoredPosition.y;
-				}
+			if ( actors.ContainsKey(actorName)) {			
 				// if any missing color params, then assume actor color
 				// should stay the same
 				if ( colorHex == string.Empty ) {
 					actorColor = actors[actorName].actorColor;
 				}
-				newActor.rectTransform.anchoredPosition = newPos;
 				// clean-up
 				Destroy( actors[actorName].gameObject );
 				actors.Remove(actorName);
 				actors.Remove(actorName);
 			}
-
-			// save actor data
-			actors.Add( actorName, new VNActor( newActor, actorColor) );
 		}
 
 		///<summary> Draw(spriteName,positionX,positionY) generic function
@@ -412,6 +405,7 @@ namespace Yarn.Unity.Example {
             var actorName = dialogueLine.CharacterName;
 
             if (string.IsNullOrEmpty(actorName) == false && actors.ContainsKey(actorName)) {
+
                 HighlightSprite(actors[actorName].actorImage);
 				nameplateBG.color = actors[actorName].actorColor;
                 nameplateBG.gameObject.SetActive(true);
