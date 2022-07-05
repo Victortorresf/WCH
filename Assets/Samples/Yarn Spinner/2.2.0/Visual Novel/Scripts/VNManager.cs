@@ -66,6 +66,9 @@ namespace Yarn.Unity.Example {
 			runner.AddCommandHandler<float>("FadeIn", SetFadeIn );
 			runner.AddCommandHandler<string,string,float>("CamOffset", SetCameraOffset );
 
+			runner.AddCommandHandler<string>("ScaleUp", SUp);
+			runner.AddCommandHandler<string>("ScaleDown", SDown);
+
 			// adds all Resources to internal lists / one big pile... it
 			// will scan inside all subfolders too! note: but when
 			// referencing sprites in the Yarn script, just use the file
@@ -78,10 +81,39 @@ namespace Yarn.Unity.Example {
 			}
 		}
 
-		#region YarnCommands
 
-		/// <summary>changes background image</summary>
-		public void DoSceneChange(string spriteName) {
+	
+		#region YarnCommands
+		
+	public void SUp(string character)
+	{
+		GameObject image = GameObject.Find(character);
+			for (float i = 0f; i <= 1f; i += 0.1f)
+			{
+				image.transform.localScale = new Vector3(
+				(Mathf.Lerp(transform.localScale.x, transform.localScale.x + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+				(Mathf.Lerp(transform.localScale.y, transform.localScale.y + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+				(Mathf.Lerp(transform.localScale.z, transform.localScale.z + 0.025f, Mathf.SmoothStep(0f, 0.2f, i))));
+			}
+	}
+
+	public void SDown(string character)
+	{
+		GameObject image = GameObject.Find(character);
+		for (float i = 0f; i <= 1f; i += 0.1f)
+		{
+			image.transform.localScale = new Vector3(
+			(Mathf.Lerp(transform.localScale.x, transform.localScale.x - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+			(Mathf.Lerp(transform.localScale.y, transform.localScale.y - 0.025f, Mathf.SmoothStep(0f, 0.2f, i))),
+			(Mathf.Lerp(transform.localScale.z, transform.localScale.z - 0.025f, Mathf.SmoothStep(0f, 0.2f, i)))
+			);
+		}
+
+	}
+
+
+	/// <summary>changes background image</summary>
+	public void DoSceneChange(string spriteName) {
 			bgImage.sprite = FetchAsset<Sprite>( spriteName );
 		}
 

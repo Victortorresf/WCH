@@ -11,11 +11,14 @@ public class Character : MonoBehaviour, IClickable
     private string loadAudio;
     private bool coroutineAllowed;
     private bool coroutineAllowed2;
+    private bool hadHovered;
+
 
     void Start()
     {
         coroutineAllowed = true;
         coroutineAllowed2 = true;
+        hadHovered = false;
     }
 
     public void Click()
@@ -28,14 +31,16 @@ public class Character : MonoBehaviour, IClickable
         if (coroutineAllowed && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
         {
             StartCoroutine("ScaleUp");
+            hadHovered = true;
         }
     }
 
     private void OnMouseExit()
     {
-        if (coroutineAllowed2 && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
+        if (coroutineAllowed2 && hadHovered)
         {
            StartCoroutine("ScaleDown");
+            hadHovered = false;
         }
          
         coroutineAllowed = true;
