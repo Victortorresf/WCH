@@ -1,14 +1,24 @@
 ﻿title: Jean
 tags:
 ---
-<<Act Jean - - - black>>
-<<Act Uncle - - - grey>>
+<<Act Jean black>>
 Jean: Hey Uncle?
+<<Act Uncle grey>>
+<<SUp Uncle>>
 Uncle: Yeah Jean?
+<<SDown Uncle>>
+<<SUp Jean>>
 Jean: Am I doin' this right?
+<<SDown Jean>>
+<<SUp Uncle>>
 Uncle: Hm...
+<<SDown Uncle>>
+<<SUp Jean>>
 Jean: ...
 Jean: So?
+<<SDown Jean>>
+<<SUp Uncle>>
 Uncle: What were we supposed to do again? We're just kneeling here holding wood.
+<<SDown Uncle>>
 Jean: ...
 ===
