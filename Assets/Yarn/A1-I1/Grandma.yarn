@@ -2,7 +2,7 @@
 tags:
 position: -66,-42
 ---
-<<Act Grandma - - - black>>
+<<Act Grandma black>>
 Grandma: So what's your business?
 -> I'm lost!
     <<jump Directions>>
