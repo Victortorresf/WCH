@@ -403,14 +403,14 @@ namespace Yarn.Unity.Example {
         public override void RunLine(LocalizedLine dialogueLine, System.Action onDialogueLineFinished)
         {
             var actorName = dialogueLine.CharacterName;
-
+			
             if (string.IsNullOrEmpty(actorName) == false && actors.ContainsKey(actorName)) {
 
                 HighlightSprite(actors[actorName].actorImage);
 				nameplateBG.color = actors[actorName].actorColor;
                 nameplateBG.gameObject.SetActive(true);
             } else {
-                nameplateBG.gameObject.SetActive(false);
+                //nameplateBG.gameObject.SetActive(false);
             }
 
             onDialogueLineFinished();
