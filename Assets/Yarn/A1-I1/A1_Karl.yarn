@@ -1,0 +1,37 @@
+﻿title: A1_Karl
+tags:
+---
+<<Act Karl>>
+<<Act Jean>>
+
+You overhear a conversation between your father and your cousin, Jean.
+
+<<SUp Karl>>
+Karl: Y'know what day it is tomorrow, sonny?
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: It's stay-in-bed-Sunday. And don't call me sonny, please.
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: You're right on the Sunday part, but where I was raised that's actually for going to church.
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: Good thing you can just go to church by yourself, huh?
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: C'mon Jean, don't be like that.
+Karl: It can't be that bad if you just open up a bit.
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: Yeah, I think I'll pass.
+Jean: I just don't see myself ever getting friendly with those church guys.
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: I understand, son. I s'ppose I just don't want you to have any regrets later.
+Karl: It's nice to have something to hold onto, y'know?
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: ...I guess. 
+<<SDown Jean>>
+
+===

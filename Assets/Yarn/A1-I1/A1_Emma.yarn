@@ -1,0 +1,114 @@
+﻿title: A1_Emma
+tags:
+---
+<<Act Paula>>
+<<Act Emma>>
+<<Act Jean>>
+
+You decide to take a break and chat up your grandma for a moment.
+
+<<SUp Paula>>
+Paula: Hey gran', how goes it?
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: Hm. S'goin' okay I s'ppose.
+<<SDown Emma>>
+<<SUp Paula>>
+Paula: You wanna throw me one of those nuts you have over there?
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: I ain't liable for wherever it's gonna land.
+<<SDown Emma>>
+
+Contrary to what her pessimistic disclaimer may suggest, Emma single-handedly cracks one of the hazelnuts in her basket against a nearby surface and throws it right in front of your face with pinpoint precision.
+You catch it with ease.
+The earthy taste refreshes your senses.
+
+<<SUp Paula>>
+Paula: Thanks!
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: Anything else you wanted to talk about, darlin'?
+
+-> Monday shopping
+    <<SDown Emma>>
+    <<jump A1_Emma_Shopping>>
+-> Work
+    <<SDown Emma>>
+    <<jump A1_Emma_Work>>
+-> Eh, I'm good.
+    Grandma looks back down at whatever she was carving with her knife.
+    Emma: Alright sweetheart, don't lemme keep you.
+    <<SDown Emma>>
+===
+
+title: A1_Emma_Shopping
+tags:
+---
+<<SUp Paula>>
+Paula: You wanna head over to Kayl for some shopping on Monday?
+Paula: Aunt Catharina said she'll be busy that day.
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: Kayl? You gon' be fine having to speak French?
+<<SDown Emma>>
+<<SUp Paula>>
+Paula: I'm actually getting pretty good at it!
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: Maybe you should start giving your cousin some lessons, then...
+<<SDown Emma>>
+<<SUp Jean>>
+Jean: Hey, I heard that.
+<<SDown Jean>>
+<<SUp Paula>>
+Paula: Anyway, yeah, I just don't really like the bread here in Tetingen.
+Paula: And judging from that pot, we're gonna have a lot of leftover pumpkin soup this week.
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: Well, I'm up for a girls' day out.
+<<SDown Emma>>
+
+<<jump A1_Emma_Question>>
+===
+
+title: A1_Emma_Work
+tags:
+---
+<<SUp Paula>>
+Paula: You think there's anywhere I could start making money near here?
+<<SDown Paula>>
+<<SUp Emma>>
+Emma: That farm Jean started at seems like a decent bet.
+Emma: If he has a future there, you might too.
+<<SDown Emma>>
+<<SUp Paula>>
+Paula: Certainly prefer that over him starting at the mines...
+<<SUp Emma>>
+Emma: You and me both...
+Emma: Whatever you decide to do Paula, don't push yourself too hard.
+Emma: You only got this one life.
+<<SDown Emma>>
+<<SUp Paula>>
+Paula: ...thanks gran', I'll take care.
+<<SDown Paula>>
+
+<<jump A1_Emma_Question>>
+
+===
+
+title: A1_Emma_Question
+tags:
+---
+<<SUp Emma>>
+Emma: Anything else?
+
+-> Monday shopping
+    <<jump A1_Emma_Shopping>>
+-> Work
+    <<jump A1_Emma_Work>>
+-> Eh, I'm good.
+    Grandma looks back down at whatever she was carving with her knife.
+    Emma: Alright sweetheart, don't lemme keep you.
+    <<SDown Emma>>
+===

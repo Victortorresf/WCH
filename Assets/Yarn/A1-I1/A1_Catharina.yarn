@@ -1,0 +1,40 @@
+﻿title: A1_Catharina
+tags:
+---
+<<Act Jean>>
+<<Act Catharina>>
+<<Act Karl>>
+
+You overhear a conversation between Jean and aunt Catharina.
+
+<<SUp Catharina>>
+Catharina: How's it goin' on that fence, honey?
+<<SDown Catharina>>
+<<SUp Jean>>
+Jean: Uh... it's goin'!
+<<SDown Jean>>
+<<SUp Catharina>>
+Catharina: Right, it's getting dark soon, and I'm thinkin' we're just about ready to plate up.
+Catharina: Don't want my boy to get back to it tomorrow unfed and unrested.
+<<SDown Catharina>>
+<<SUp Jean>>
+Jean: I'm not a child, mother.
+<<SDown Jean>>
+<<SUp Catharina>>
+Catharina: Well, I have to say I find that sentence amusingly ironic.
+Catharina: If that's the case, don't come cryin' to me about it when your uncle get's the lion's share of the pumpkin soup again.
+<<SDown Catharina>>
+<<SUp Jean>>
+Jean: I think I have bigger things to worry about than some pumpkin soup.
+<<SDown Jean>>
+<<SUp Catharina>>
+Catharina: Do you now?
+Catharina: You hear that, Karl? Jean is coming for your spot as the big man in the house!
+<<SDown Catharina>>
+<<SUp Karl>>
+Karl: Anything for an excuse to kick back a bit.
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: Man...
+<<SDown Jean>>
+===

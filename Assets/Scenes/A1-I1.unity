@@ -606,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: NPC
-      value: Jean
+      value: A1_Jean
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -686,19 +686,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 6.5348506
+      value: 4.012556
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 11.069397
+      value: 9.993895
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 0.36757493
+      value: 0.44639683
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: -0.2303009
+      value: -0.7680521
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -15362,7 +15362,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Uncle
+      value: Karl
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Layer
@@ -15370,7 +15370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: NPC
-      value: 1-1_Karl
+      value: A1_Karl
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -15450,19 +15450,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 6.64
+      value: 4.485096
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 6.9191055
+      value: 5.6192045
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: -0.3591528
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 2.6504478
+      value: 3.3003983
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -20315,11 +20315,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Grandma (Right Corner)
+      value: Emma
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: NPC
-      value: Grandma
+      value: A1_Emma
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -20403,19 +20403,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 7.858383
+      value: 5.0096855
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 13.860394
+      value: 11.90923
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 1.7158079
+      value: 2.4377365
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 1.7048035
+      value: 2.680385
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -20456,11 +20456,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Mom (Above)
+      value: Catharina
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: NPC
-      value: Mom
+      value: A1_Catharina
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -20544,19 +20544,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 8.08
+      value: 4.097177
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
-      value: 7.1693993
+      value: 5.9782743
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: 1.9914114
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
-      value: 3.0253
+      value: 3.6208625
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -20597,11 +20597,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2908776498247963120, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Name
-      value: Cousin (Below)
+      value: Paula
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963125, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: NPC
-      value: Cousin
+      value: A1_Paula
       objectReference: {fileID: 0}
     - target: {fileID: 2908776498247963126, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_RootOrder
@@ -20677,7 +20677,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.x
-      value: 3.8924294
+      value: 2.6781833
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Size.y
@@ -20685,7 +20685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.x
-      value: -0.06901312
+      value: 0.025849938
       objectReference: {fileID: 0}
     - target: {fileID: 5422612555079927982, guid: 60d700279d694424db76b0b332c898d4, type: 3}
       propertyPath: m_Offset.y
@@ -20702,9 +20702,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: startNode
+      value: A1_Intro
+      objectReference: {fileID: 0}
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: yarnProject
       value: 
       objectReference: {fileID: 7545569452688597077, guid: 38044a6ddfd934b4baeaf8a167788b34, type: 3}
+    - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+      propertyPath: startAutomatically
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1220028248902886864, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: onCommand.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -20851,7 +20859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3952363388766679863, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.59259033
+      value: 0.5925293
       objectReference: {fileID: 0}
     - target: {fileID: 3952363388766679863, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
       propertyPath: m_AnchoredPosition.y

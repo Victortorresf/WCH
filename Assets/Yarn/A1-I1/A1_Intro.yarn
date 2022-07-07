@@ -1,0 +1,21 @@
+﻿title: A1_Intro
+tags:
+---
+<<Act Paula>>
+<<Act Jean>>
+
+It's a hot summer day.
+
+The sweat dripping from your palms is seemingly trying its best to loosen your grip on the small wooden axe you're chopping away with.
+
+You hear birds sending their lethargic vibrations through the humid air, and the thought of letting exhaustion wash over you for a bit becomes more appealing by the second.
+
+Just as you finally decide to give your eyelids a rest, your cousin's voice sternly cuts through the peace and quiet.
+<<SUp Jean>>
+Jean: I might be off-base here, but as far as I'm aware that fence won't be building itself. You still in the land of the living, Paula?
+<<SDown Jean>>
+You let out a sigh.
+<<SUp Paula>>
+Paula: Yeah, yeah.
+<<SDown Paula>>
+===

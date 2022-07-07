@@ -1,0 +1,39 @@
+﻿title: A1_Jean
+tags:
+---
+<<Act Karl>>
+<<Act Jean>>
+
+You overhear a conversation between Jean and your father.
+
+<<SUp Jean>>
+Jean: I don't know about this…
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: 'bout what?
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: Is this really enough wood to fence the entire area?
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: Well if it ain't, we'll just be taking another hike to the woods sometime next week.
+Karl: 'nuff trees to go 'round, far as I'm concerned.
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: Seriously?
+Jean: You realize it's gonna be dark by the time I'm home from this farmhand job like, every day next week, right?
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: We got those lanterns for a reason my boy.
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: I gotta be up early in the morning!
+<<SDown Jean>>
+<<SUp Karl>>
+Karl: You only just turned thirteen, still lots of energy to give if ya ask me.
+<<SDown Karl>>
+<<SUp Jean>>
+Jean: Ugh…
+<<SDown Jean>>
+
+===
