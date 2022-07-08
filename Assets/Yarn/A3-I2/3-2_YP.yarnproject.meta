@@ -8,7 +8,8 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
-  sourceScripts: []
+  sourceScripts:
+  - {fileID: 6391573757903218779, guid: 711f88ed74cea3b4e8788e91ce2ec2a0, type: 3}
   compileErrors: []
   serializedDeclarations: []
   defaultLanguage: en-US
