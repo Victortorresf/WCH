@@ -10,6 +10,7 @@ public class ClickManager : MonoBehaviour
     private Camera cam;
     AudioSource audioClick;
     public AudioClip clip;
+    bool isPaused = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,15 +23,19 @@ public class ClickManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
+        isPaused = PauseMenu.isPaused;
+        if (!isPaused)
         {
-            Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
-            if (hit)
+            if (Input.GetMouseButtonDown(0) && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
             {
-                IClickable clickable = hit.collider.GetComponent<IClickable>();
-                clickable?.Click();
-                audioClick.Play();
+                Vector2 mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+                RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+                if (hit)
+                {
+                    IClickable clickable = hit.collider.GetComponent<IClickable>();
+                    clickable?.Click();
+                    audioClick.Play();
+                }
             }
         }
     }

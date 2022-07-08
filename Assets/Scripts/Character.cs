@@ -28,16 +28,21 @@ public class Character : MonoBehaviour, IClickable
 
     private void OnMouseOver()
     {
-        if (coroutineAllowed && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
+        bool ispaused = PauseMenu.isPaused;
+        if (!ispaused)
         {
-            StartCoroutine("ScaleUp");
-            hadHovered = true;
+            if (coroutineAllowed && !FindObjectOfType<DialogueRunner>().IsDialogueRunning)
+            {
+                StartCoroutine("ScaleUp");
+                hadHovered = true;
+            }
         }
     }
 
     private void OnMouseExit()
     {
-        if (coroutineAllowed2 && hadHovered)
+        bool ispaused = PauseMenu.isPaused;
+        if (coroutineAllowed2 && hadHovered && !ispaused)
         {
            StartCoroutine("ScaleDown");
             hadHovered = false;
