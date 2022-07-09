@@ -214,6 +214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7834687969289763341, guid: ba64e07afbc74e2449f06a3452f2fb0b, type: 3}
+      propertyPath: dialogueCanvas
+      value: 
+      objectReference: {fileID: 3874224640237277892}
     - target: {fileID: 7834687969289763831, guid: ba64e07afbc74e2449f06a3452f2fb0b, type: 3}
       propertyPath: m_Name
       value: CanvasPause
@@ -5731,3 +5735,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+--- !u!1 &3874224640237277892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3875310925772737407, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+  m_PrefabInstance: {fileID: 3874224640237277891}
+  m_PrefabAsset: {fileID: 0}

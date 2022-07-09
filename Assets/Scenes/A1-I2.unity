@@ -382,6 +382,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7834687969289763341, guid: ba64e07afbc74e2449f06a3452f2fb0b, type: 3}
+      propertyPath: dialogueCanvas
+      value: 
+      objectReference: {fileID: 959256139}
     - target: {fileID: 7834687969289763831, guid: ba64e07afbc74e2449f06a3452f2fb0b, type: 3}
       propertyPath: m_Name
       value: CanvasPause
@@ -686,6 +690,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &959256139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3875310925772737407, guid: 0ce3c78b92aeac3428bca29bbe7b6658, type: 3}
+  m_PrefabInstance: {fileID: 3874224640237277891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116866647
 GameObject:
   m_ObjectHideFlags: 0
