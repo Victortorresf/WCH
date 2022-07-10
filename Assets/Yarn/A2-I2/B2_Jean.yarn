@@ -1,0 +1,51 @@
+﻿title: B2_Jean
+tags:
+---
+<<Act JEAN SCHORTGEN>>
+<<Act MINER>>
+<<Act JEAN-PIERRE BAUSCH>>
+<<Act YOU>>
+
+
+<<SUp Jean>>
+JEAN SCHORTGEN: My fellow workers, it is clear to me that the only way forward is by establishing a formally recognised union to represent our interests. We need to have a seat at the table with the Mining Company. We need access to the higher-ups so that we can discuss our concerns and demands diplomatically.
+<<SDown Jean>>
+
+<<SUp Miner>>
+MINER: Maybe then they'll stop making our union organisers disappear!
+<<SDown Miner>>
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Are you sure that's the main concern, Jean? What about all the accidents and the unsafe working environment?
+<<SDown JP>>
+
+<<SUp Jean>>	
+JEAN SCHORTGEN: We can't have a major strike every time we have an issue. Formalising the union will be the starting point from which we can demand more changes in the future.
+<<SDown Jean>>
+
+-> That's right, we need a peaceful setting if we want to be taken seriously.
+
+-> That will never lead to anything. Striking is what gives us leverage!
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Yeah, strikes are powerful but I have to agree with you, Jean. Recognising the union and ending the harassment of union members should be our cardinal tenet.
+<<SDown JP>>
+
+<<SUp Miner>>
+MINER: I suppose that makes sense...
+<<SDown Miner>>
+
+<<SUp Jean>>	
+JEAN SCHORTGEN: Great, I'm glad we're all in agreement. We cannot give up this goal over anything else. After that is accepted by the Company, we can focus on the next pressing issues.
+<<SDown Jean>>
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: We can't be complacent and let them linger, though! Every passing day without improvements is another day where our comrades are being exploited and risking their lives.
+<<SDown JP>>
+
+<<SUp Jean>>	
+JEAN SCHORTGEN: Yes, I'm aware. It's a tough situation...
+<<SDown Jean>>
+
+
+===

@@ -1,0 +1,90 @@
+﻿title: B2_JP
+tags:
+---
+<<Act JP>>
+<<Act JEAN SCHORTGEN>>
+<<Act MINER>>
+<<Act YOU>>
+
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: What we need is to be treated like respectable hard-working men. We are here to earn our living and support our families, and we're not afraid to get dirty and break our backs for it. We uncover and supply the steel that fuels industrial infrastructure and powers mankind's future. Our labour should be treated with honour and respect; instead we are abused like captives and slaves.
+<<SDown JP>>
+
+-> I agree, mining is dignified work. We should be celebrated, not ostracised!
+    <<jump B2_JP_Agree>>
+-> I'm only here because that's all there is. It's either the mine or a street gutter. Hardly a heroic choice to make.
+    <<jump B2_JP_Disagree>>
+
+===
+
+title: B2_JP_Agree
+tags:
+---
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Well spoken, my friend!
+<<SDown JP>>
+<<jump B2_JP_Continued>>
+===
+
+title: B2_JP_Disagree
+tags:
+---
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Come on, man, have some pride in yourself! That's no way for a man to think.
+<<SDown JP>>
+<<jump B2_JP_Continued>>
+===
+
+title: B2_JP_Continued
+tags:
+---	
+<<SUp Jean>>
+JEAN SCHORTGEN: You're right, JP. You'd be hard-pressed to find more hard-working men risking their lives than your fellow miner and heavy industry worker. And yet, after all this sweat and pain, we are handed over meager scraps and told to be content, while our families are in a constant tight-rope above a pit of starvation. That's why I believe increasing our salaries should be one of the main demands.
+<<SDown Jean>>
+
+<<SUp Miner>>
+MINER: Right after we storm their coffers, you can pay yourself whatever you want!
+<<SDown Miner>>
+
+Everyone ignored him.
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Even with a raise, Jean, it is no place for a man to work in such squalid dehumanising conditions. We live all week in cramped dorms with pitiful excuses for beds, with a bathroom for every ten men, half the time with no running water, no private space for a man to gather his thoughts, and if we dare light the central heating to not freeze to death in winter, they deduct it from our pay. It smells like death and decay, and if any one person gets sick, it spreads like a wildfire.
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: Indeed, they're dreadful...
+<<SDown Jean>>
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: Once you get to the work site, things are no better. We are pushed around by the managers, and the guards treat us as if convicts; expecting us to perform flawless arduous tasks for 10 hours. Breaks are scarce and looked down upon. Any mistake made, any piece of rock not extracted and transported perfectly is a penalty deducted from our salary.
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: Indeed, 10 hours of hard labour is madness. It's a prison sentence befitting a serial murderer.
+<<SDown Jean>>
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: And that's not all. They expect consistent impeccable results from us like we're prodigal sons, yet they show no concern or care for our lives. Mines are not properly examined and set up by engineers to ensure our safety, instead everything is rushed to extract as much iron ore as quickly as possible to fill our quotas. Cave-ins are common, and people get maimed or even killed, but the managers don't care.
+<<SDown JP>>
+
+<<SUp Miner>>
+MINER: It happens so many times, you just shrug it off as a natural occurrence. But it shouldn't be like that, it ain't right.
+<<SDown Miner>>
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: If you got a mule killed in the mines and you were in charge, you could lose your job over it. If you got a man killed, he could be replaced.
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: You really hit the nail on the head there, well said, JP. I believe that reduced working hours and much improved working conditions should be some of our core tenets. We will take this to Mr. Gaumont and see what he has to say about it.
+<<SDown Jean>>
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: Agreed.
+<<SDown JP>>
+
+===

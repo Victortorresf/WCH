@@ -1,0 +1,128 @@
+﻿title: B2_Intro
+tags:
+---
+<<Act JEAN SCHORTGEN>>
+<<Act JEAN-PIERRE BASUCH>>
+<<Act YOU>>
+<<Act MINER>>
+<<Act GAUMONT>>
+
+As you stand defiantly atop an idle minecart on the 5th day of protest against the Mining Company, a striking older gentleman walks towards you. He's wearing a green raincoat and a silk scarf over a tailor-fit suit, smiling with open arms as he approaches. His demeanour is not shared by the two grumpy horse-faced guards that flank him.
+
+<<SUp Miner>>
+MINER: Look, there's an old bastard coming at us with a couple guards! They wanna beat us up and silence us like they did to the other union organisers! I told you we should have brought guns and lynched these jerks!
+<<SDown Miner>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: Easy there, let's just hear what the man in the suit has to say before we jump to conclusions.
+<<SDown Jean>>
+
+GAUMONT: Hello, gentlemen! My name is Mr. Gaumont, and I am a labour negotiator on behalf of the Mining Company. A sort of ambassador, if you will. I'm very pleased to meet you and look forward to a fruitful discussion. Now, gentlemen, what appears to be the problem?
+
+
+Mr. Gaumont clasps his hands and speaks with a wide grin. The guards stand stiffly still beside him.
+
+<<SUp JP>>
+JEAN-PIERRE BASUCH: What appears to be the problem?! Is this guy for real? Listen here--
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: JP, settle down, let me handle this... Mr. Gaumont, I'm glad to make your acquaintance. It's good to see that the Company is taking our woes seriously and is willing to negotiate.
+<<SDown Jean>>
+
+GAUMONT: Likewise, Mister...?
+
+<<SUp Jean>>
+JEAN SCHORTGEN: Schortgen, Jean Schortgen.
+<<SDown Jean>>
+
+<<SUp JP>>
+JEAN-PIERRE BASUCH: You don't recognise him? This man is the president of the Social Democratic Party, for crying out loud!
+<<SDown JP>>
+
+GAUMONT: Oh, really? How splendid! So we can talk like civilised diplomats then. I assume you're in charge here.
+
+<<SUp Miner>>	
+MINER: "Like civilised gentlemen"? What is he implying about the rest of us...?
+<<SDown Miner>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: There is nobody in charge here, Mr. Gaumont. We are colleagues and we are all equal. Now, if you want to be taken seriously and with respect, I suggest you disband those guards. They have been known for going around the mining grounds and mercilessly assaulting hard-working men without provocation, who merely sought to improve the lives of their fellows by organising workers councils. You will do nothing but attract animosity and resentment by parading them around like some sort of firing squad.
+<<SDown Jean>>
+
+Mr. Gaumont smiles sardonically with a closed mouth, and thinks for a while, looking behind him and around him. The sardonic grin morphs into a sly smile, as though a plan has now been conjured, and he finally speaks.
+
+
+GAUMONT: That is a fair request, Mr. Schortgen. This little scene of yours has been going on for a week now, and I am here to resolve it swiftly, not to stoke the fire.
+
+
+He turns around to face the guards behind him.
+
+
+GAUMONT: Boys, you are dismissed. Don't worry, these fine gentlemen won't lay a finger on me.
+
+
+He turns back to face the miners.
+
+
+GAUMONT: Of course, Mr. Schortgen, in the spirit of reciprocity, I will need some collateral. Your worker IDs will suffice; hand them over, please.
+
+<<SUp Miner>>
+MINER: Are you nuts? No way, man! We can't collect our paycheck without them.
+<<SDown Miner>>
+
+GAUMONT: They will of course be immediately returned to you after our negotiations.
+
+<<SUp Miner>>	
+MINER: What do we even need negotiations for? This is a strike, goddamn it!
+<<SDown Miner>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: The negotiations *are* the strike, youngster. Here, Mr. Gaumont, you can have mine and mine alone. That should suffice.
+<<SDown Jean>>
+
+<<SUp JP>>
+JEAN-PIERRE BASUCH: Jean, are you sure about this? I have a bad feeling about this guy...
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: Trust me, JP, this is the best chance we have to get our point across to the Company diplomatically.
+<<SDown Jean>>
+
+	
+Jean reaches into his inner coat pocket and hands his worker ID to Mr Gaumont.
+
+	
+GAUMONT: Very good, sir. I can feel the air clearing already. Now, down to business!
+
+<<SUp Jean>>
+JEAN SCHORTGEN: We are here to fight for our basic rights as human beings, above all else! Nothing else matters, nothing else can be achieved until the Company stops treating us like disposable cattle, and sees us as the human beings we are.
+<<SDown Jean>>
+
+<<SUp JP>>
+JEAN-PIERRE BASUCH: Hear hear! This is why our number 1 demand is improved living and working conditions!
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: JP, I was going to call for the official recognition of worker unions as our core demand.
+<<SDown Jean>>
+
+<<SUp Miner>>	
+MINER: I say our ultimatum should include the surrender of all mine guards. Bring them to justice for their crimes against our comrades!
+<<SDown Miner>>
+
+-> I thought we were fighting for better salaries. My family is barely scraping by!
+
+-> I'm here for reduced working hours. I'm killing myself out there and have no free time.
+
+-> What we want is a revolution! A new system built for the working man!
+
+<<SUp Jean>>
+JEAN SCHORTGEN: Alright fellas, let's settle down. We are fighting for all of that and more. We just need to make a priority list that can be negotiated with the Company. Mr. Gaumont, excuse us for a second while we discuss our terms.
+<<SDown Jean>>
+
+GAUMONT: Why, certainly...
+
+
+
+===

@@ -1,0 +1,54 @@
+﻿title: B2_Miner
+tags:
+---
+<<Act MINER>>
+<<Act YOU>>
+<<Act JEAN-PIERRE BAUSCH>>
+<<Act JEAN SCHORTGEN>>
+
+
+<<SUp Miner>>
+MINER: Am I seriously the only one seeing through this guy's crap? He's not here to help us, and listen to our concerns. He's here to break our legs and break up the protest. By Jingo, he said it himself that he was here to put a swift end to our riot!
+<<SDown Miner>>
+
+	
+-> I think it's worth trying, we have nothing to lose.
+
+-> Yeah! This pretentious bourgeoisie bastard isn't our friend!
+
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: Are you of your mind? He sent the guards away, what the hell is he gonna do against all of us?
+<<SDown JP>>
+
+<<SUp Miner>>	
+MINER: Exactly! Let's jump him and take him hostage! Then we'll have some real leverage on our hands and the Company will have no choice but to submit to our demands.
+<<SDown Miner>>
+
+	
+-> That's a great plan, I'll go fetch some rope!
+	
+-> You can't be serious...
+
+<<SUp Jean>>
+JEAN SCHORTGEN: *Sigh* You're utterly crazy. The Company would instantly call upon the military and slaughter us. Besides, we are better than them. We will not sink to their level and rely on their ways of fear and violence.
+<<SDown JP>>
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: We would lose the support of the people too if they heard we were holding up people for ransom like we're back in the Middle Ages.
+<<SDown JP>>
+
+<<SUp Miner>>	
+MINER: So what of all our comrades that got dragged out of their dorms in the middle of the night to get their teeth kicked in? Are we supposed to forgive them and forget about that?
+<<SDown Miner>>	
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Nobody will forget that! It is for them that we fight. It's the injustice that fuels us to keep us going, to make sure it will never happen again.
+<<SDown JP>>
+
+<<SUp Jean>>
+JEAN SCHORTGEN: If we don't seize this opportunity, their suffering will have been in vain. Now let's get back to it.
+<<SDown JP>>
+
+
+===
