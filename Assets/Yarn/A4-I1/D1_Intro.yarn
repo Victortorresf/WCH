@@ -1,0 +1,115 @@
+﻿title: D1_Intro
+tags:
+---
+<<Act LÉON WEIRICH>>
+<<Act GRANDDAUGHTER EMMA>>
+
+Tagging along after your grandfather, you finally reach the top of the hill revealing a gorgeous vista over your dearly-loved hometown. He offers you a seat in the shade next to him and you plop down on the soft, grassy ground. Gasping for breath, he thrusts his old wooden cane into your hands, as he gazes into the distance, lost in thought. For what seems like ages, you peacefully sit beside each other enshrouded in placid silence. 
+
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: Grandpa Léon?
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: What is it, little one?
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: What do you think are all those people down there doing right now? 
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Well… let’s see… See our little river down there? Your daddy and his pals are probably in the middle of catching aaall the fish in there, so next time your rusty old grandpa has to sit there for 4 hours again to catch one single baby trout.  
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: Ugh… I remember the time I joined you two… I mean, Ma’s fish potato dish was delicious as always. But my stomach still churns thinking about everything that happened to the fish before we ate it…
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: You should know where your food comes from! I understand, seeing a living being getting killed and prepared for serving isn’t the most entertaining activity for a young lady like you. But one of the most important things in life is to always make sure you and your loved ones have enough food on their tables. And to know the basics of fishing and how to gut a fish is a crucial skill to learn.
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: Hm…
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Haha, I see… I won’t convince you anytime soon. Tomorrow's garden work to prepare the Faber family's patch for seedtime should be more stomach-friendly. The radishes and carrots surely would appreciate your help as well. Maybe you can scrounge some of their strawberries, too. Who knows?
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: Ok…I’m in!     
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Pinky promise?
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: Pinky promise!
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Great! Now that I got your word for it… Our choral society is planning to have a little celebration after the work is done. Adrien Faber invited us to an evening of singing and dancing with a singing contest to top it all off!
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: Adrien Faber? Are you serious?
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: *raises his eyebrows and looks at you with a consenting smile*
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: I won’t promise anything to you ever again…
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Now, don’t be so huffy… it’s going to be a whale of a time! 
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: If no one’s going to tell him how bad he sings, he’ll never know about it. Seems like his ears aren’t the best. 
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Can you sing better?
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: I don’t have to be a better singer to know that Adrien can’t sing! He always talks big… but can’t sing for toffee!
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Haha, I’m sure if a charming young lady like you tells him this reckless truth, he won’t attend a single choir practice until he comes back one day and suddenly sounds like Ernest Dornseiffer himself at his career peak.
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: He better.
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: Ah come on… Music and singing is such a great way to forget about all of life’s hassle for just a moment…  It’s not supposed to be a competition, just a pleasant activity to do in our freetime. I wish time allowed us to meet more often than just once in a blue moon…
+LÉON WEIRICH:By the way, you know what else is so great about singing in a choir?
+LÉON WEIRICH:*leans over to you, whispering behind his hand* 
+LÉON WEIRICH:You don’t hear the off-key notes.
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: I do!
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: God damn! The apple doesn’t fall far from the tree! Just as bullheaded as your Ma, huh?
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: *displays an arch smile, slowly fading to reveal a concerned look*
+GRANDDAUGHTER EMMA:What did he mean with the thing he said at Louise’s birthday party? That time he threw the bottle and said something about how the mine kills everyone sooner or later…
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: *gulps*
+LÉON WEIRICH:Oh… you remember that? You know, I’m pretty sure he just made some slip of the tongue in his sozzled state at that party back then. A weird adult’s habit is that sometimes they make stupid jokes about horrible things. It helps them to cope with them… Do you know what happened to his son?
+ <<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: No…he has a son?
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH: He had a son, yes… His name was Leo. You never met him as this was before your time. I’ve never heard old Adrien and his Louise mention his name since… So, no surprise you’ve never heard of him. Their boy died in a tragic accident down there in the Katzenberg mine. He didn’t even make his 18th birthday.
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA: I had no idea… He also died in a mine accident just like your two friends you told me about?
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH:Yes… and you know Adrien isn’t exactly known for his empathy and softly-softly demeanor. His words were coming from the mouth of a desperate, bitter man that had a drop too much. You gotta understand, life didn’t treat him with kid gloves and he went through a lot… made him the grumpy guy he is now. But deep down inside, old Adrien has a good heart!
+<<SDown Leon>>
+<<SUp Emma>>
+GRANDDAUGHTER EMMA:*speaks slowly with a downcast air*
+GRANDDAUGHTER EMMA:I don’t want daddy or you to die, grandpa…
+<<SDown Emma>>
+<<SUp Leon>>
+LÉON WEIRICH:*gently puts an arm around your shoulder*
+LÉON WEIRICH:Oh… don’t you worry about that, little one! Listen, if your old grandpa can teach you anything about life it’s this:
+LÉON WEIRICH:Sometimes, it may look like the struggles you went through, all your hard work and your relentless fight for the right was in vain. For nothing. But let me tell you something: Each one of us, every, single, one, no matter where you come from or where you are going.
+LÉON WEIRICH:Doesn’t matter if you’re a father going fishing with his buddies, a mother cooking food for her family, a quirky neighbor hosting a singing contest even though he cannot hit a single note himself   …or a 12 year old girl listening to her grandpa’s ramblings about life. Everyone has the ability to achieve something very big and meaningful. It may not be visible right away and it may not be appreciated or even recognized by everyone, but you will exert your influence on the world! 
+LÉON WEIRICH:If you stand up for what you think is right and keep fighting for it, never backing down, you - together with all the other brave, upright people doing the same thing - will be the change you want to see!  
+<<SDown Leon>>
+===
