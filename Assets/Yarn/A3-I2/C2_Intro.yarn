@@ -1,0 +1,141 @@
+﻿title: C2_Intro
+tags:
+---
+<<Act You>>
+<<Act Buddy>>
+
+Your old friend and fellow miner enthusiastically wraps his left arm around you and hands you a big beer. You don't hesitate to take a big swig, as you know he's about to start rambling.
+
+BUDDY: That's right buddy, drink up! Drink and be merry, because today is a day for celebration! Forget your troubles, leave the cold dark mines far away where they belong, and give a big salute to the bright future ahead of us!
+	
+YOU: You seem awfully certain of that, as if it's a fait-accompli. I mean I want change as much as the next guy, but how many times before have we heard the spiel of a better future and a better life just around the corner from these politics guys?
+	
+BUDDY: Haha, no you silly fool, you don't understand! This time it's different. These people we voted in are just like us, rural hard-working men, who know the struggle first hand and will finally open parliament's eyes to the issues we've been plagued with for years!
+	
+YOU: This time it's different, huh? Well, I'll be. So who are these guys, anyway?  You know I don't have much time and mindpower left for politics and drama after a whole week slaving away at the mine.
+
+BUDDY: Yeah, I know you, I know you're just a gormless knucklehead, haha. So the guys we voted in are J.P. Bausch, sitting there in front of us, and the other guy is Léon Weirich, this tall fella with the bike standing right next to you. Let's hope they didn't hear about how clueless you are! That would be a real embarrassment, haha!
+	
+YOU: Holy crow, they're right there! Alright, you're right, before I talk to them and make a great big fool of myself, give me a quick run-down of what their story is.
+
+
+-> Ask about J.P. Basuch
+    <<jump C2_Intro_JP>>
+-> Ask about Léon Weirich
+    <<jump C2_Intro_Leon>>
+
+===
+
+title: C2_Intro_JP
+tags:
+---
+
+YOU: How about that JP Bausch fella laying over there? He seems like a swell guy to hang out with.
+	
+BUDDY: Oh man, JP is a legend! I can't believe you've never heard of him. What, do you live under a rock?
+	
+YOU: No, but I work under one.
+	
+BUDDY: Haha, fair enough. Anyway, he worked at the mine in Rümelingen for many years, but gets this: now he's the goddamn mayor of the whole town! How about that? A miner that worked his way all the way up to top dog of a town.
+	
+YOU: That's remarkable. He must be a smart capable man.
+	
+BUDDY: Yeah sure, but that's not why he's a legend. Remember all those major strikes we were in that lasted weeks? 1917, '21, and '24? 
+	
+YOU: Of course, how could I forget being dragged into that. It got so much momentum we thought were going to topple all the factories and capitalists, until the police and military showed up and strong-armed us away back to our little rat holes.
+	
+BUDDY: Exactly! Not a bad memory for a knucklehead. So get this, those strikes were organised by JP. He got all the workers in sync and working together, and he was always at the vanguard of the protests at his mine.
+BUDDY: The 1917 one he set up with his pal Jean Schortgen, the fella that tragically died under a suspicious mining accident shortly after the strike... JP used to be a top dog at his mine too... well, as top a dog a peasant can be anyway.
+BUDDY: He had worked all his life to climb up the ladder but lost it all after participating in the strike, and still he would rather give up his hard-earned privileges than give up the worker's cause!
+	
+YOU: Yeah I remember hearing about that death, lots of rumours being spread around at the time that trade union agitators were being targeted. Probably just fear-mongering and schoolyard tales. Wasn't it also shortly after that strike that the Grand Duke finally introduced the eight-hour work day?
+	
+BUDDY: Yes, exactly! In December of 1918. See, you old codger? These people have been fighting for you and changing your life for the better this whole time right under your nose.
+	
+YOU: Okay, I admit I'm impressed now and starting to understand why you're so ecstatic. 
+
+
+<<jump C2_Intro_Question>>
+===
+
+title: C2_Intro_Leon
+tags:
+---
+
+YOU: So what about this Leon fella? He looks mighty strong and grim. What's his deal?
+	
+BUDDY: Leon Weirich... he's not well known to our comrades among these parts. He's from up in the mountains in Esch, and mostly keeps to himself and his community from what I hear. A real nature lover, I've been told.
+	
+YOU: What is he, some kind of hermit or forest druid?
+	
+BUDDY: He's certainly got the smarts of a druid and he's built like a tree! The guy is a heavy industry mountain-worker, and boy you know that's back-breaking work. I don't think you would last long up there.
+	
+YOU: Says the guy wearing a make-believe fancy suit to impress the guys at the pub, and who almost had a panic attack when he stepped on a puddle earlier.
+	
+BUDDY: Hey, excuse me for trying to look presentable for the photo! This is going down in history, you know? And here you are wearing your usual rags.
+	
+YOU: Moving on...
+	
+BUDDY: Anyway! We mentioned the strikes earlier, remember how the government created the Chamber of Labour to provide them with insight in the labour conditions of the working class? Well, why don't you go ahead and guess who they chose to be the first president of that chamber...
+	
+YOU: I hope it was that guy.
+	
+BUDDY: You are correct! Congratulations, you've graduated from a knucklehead to a bonehead.
+
+
+<<jump C2_Intro_Question>>
+
+===
+title: C2_Intro_Question
+tags:
+---
+
+BUDDY: Anything else you want to know?
+
+-> Ask about J.P. Basuch
+    <<jump C2_Intro_JP>>
+-> Ask about Léon Weirich
+    <<jump C2_Intro_Leon>>
+-> No, that's enough
+    <<jump C2_Intro_Continued>>
+
+===
+
+title: C2_Intro_Continued
+tags:
+---
+
+YOU: No, I think I've heard all I need.
+
+BUDDY: Alright buddy, stay here, I'll go get us some more beers.
+
+While your buddy is away to fetch more beer, you can overhear a conversation between Léon and JP. They sound excited and talk like old friends.
+
+JEAN-PIERRE BAUSCH: Leon! Come over here old man, let me congratulate you on your election!
+	
+LÉON WEIRICH: JP, my friend, I knew it! I said you had it in you and that we would be colleagues in the Socialist Party! I never doubted it.
+	
+JEAN-PIERRE BAUSCH: How about a beer?
+
+LÉON WEIRICH: Ah no, thank you, I've had enough. I still need to go back home to Esch today and my wife would appreciate if I arrived in one piece. But you go ahead and enjoy yourself, friend.
+
+JEAN-PIERRE BAUSCH: Alright, suit yourself, old man, but tonight the comrades and I are celebrating!
+	
+LÉON WEIRICH: I figured as much, you always were a people person. Listen JP, I wanted to tell you how proud I am of what you did to your career. See what happens when you take my advice? You finally stopped wasting your time and energy with all those weeks of protests, and turned inward to your community. And where did that get you? Mayor of Rümelingen! Simply remarkable, great work.
+
+JEAN-PIERRE BAUSCH: Yes of course, it was all part of the grand plan that followed from your advice. I still believe the strikes had merit, Leon, and brought the elites' attention to the problems we faced every day. But after you get their attention, you have to do something with it: use it to negotiate and debate. 
+JEAN-PIERRE BAUSCH: You can't just scream forever. Besides, some of the sister strikes outside my control got a bit violent and forcefully occupied several factories, which of course drew in the police and military. I didn't want any more of that.
+
+LÉON WEIRICH: I'm just being a hardass, JP, don't rue over it. After all, it was thanks to the strike in '24 that the Chamber of Labour was created. And of course, it earned you the trust and admiration of your comrades that got you elected today!
+
+JEAN-PIERRE BAUSCH: Oh yeah, how was that gig?
+
+LÉON WEIRICH: Bah... we submitted thorough detailed reports to the government, but that's all we could do. We were powerless to enforce anything and the government could just say "oh wow thank you very much" and then throw it in the trash and ignore us. 
+LÉON WEIRICH: So I left to join the Socialist Party, and I'm glad to have my own voice in parliament that can longer be ignored now.
+
+JEAN-PIERRE BAUSCH: Yeah, you said it, old friend. Here's to the great challanges and triumphs ahead of us!
+
+LÉON WEIRICH: Hear hear!
+
+
+===
