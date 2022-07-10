@@ -1,0 +1,109 @@
+﻿title: C1_Intro
+tags:
+---
+<<Act JEAN-PIERRE BAUSCH>>
+<<Act LÉON WEIRICH>>
+
+Attracted by the unusual ruckus and commotion, you are drawn out of the pub and into the main street, where a large banner-led procession has gathered. You hear a boisterous young man at the vanguard preach to the people.
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Workers of Tétange, hear me! Today we honour the life of your fellow brother Jean Schortgen, who has died fighting for your rights! A humble mine worker who through sheer grit and resolution, became the first working man to earn a seat among the rule makers in parliament.
+JEAN-PIERRE BAUSCH: A poor man like you and me who came from nothing, saw the conditions we all face with revulsion, and dared dream of something better! Every day he would toil away at the mine and then still have the willpower to campaign in parliament for a better future for his fellow working man. 
+JEAN-PIERRE BAUSCH: Tireless in his resolve and fulsome in his compassion, Jean Schortgen was destined for great things. Alas, he himself fell victim to the dangers he warned our government against.
+JEAN-PIERRE BAUSCH: Hark, men of Tétange! Heed his call, and let not Schortgen's death be in vain! It is not only in Flanders Field where brave Luxembourgish heroes die for you in battle. Workers of Tétange, join us and honour your hero!
+<<SDown JP>>
+
+Moved by this passionate, even if inarticulate, speech, you decided to join the caravan and heed Jean Schortgen's call. You quickly shuffle into the crowd behind the speaker, and overhear a conversation between him and an older gentleman walking beside him.
+
+<<SUp Leon>>
+LÉON WEIRICH: Wow J.P., I have to admit, you really did get these people interested with your emotional roaring war cry. Good job. Not as eloquent or coherent as Jean would have done it, but I'm sure he would be proud...
+LÉON WEIRICH: Just try not to work yourself up too much, okay? We still have a lot of ground to cover before sundown.
+<<SDown Leon>>
+
+JP's voice is more mellow and subdued now.
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Thank you, Léon, I'm trying... I will be hard to fill the void left by Jean. It wasn't supposed to be like this, we were really just getting started. My hope is that his story will inspire thousands to join our movement. 
+JEAN-PIERRE BAUSCH: While Jean may have had the oratory charm and resilient determination of a thousand men, having a thousand more men to vote for our cause and to back us up in protests and strikes could be the tide-changing moment we've been waiting for.
+<<SDown JP>>
+
+JP's voice is now becoming more hopeful and ardent with ambition, as thoughts of leading a valiant peaceful strike with thousands of men at his command light up in his mind. Leon is not as excited, more so cautious.
+
+<<SUp Leon>>
+LÉON WEIRICH: A word of caution to you, JP. I understand you have a weapons license.
+<<SDown Leon>>
+
+<<SUp JP>>	
+JEAN-PIERRE BAUSCH: What are you implying?
+<<SDown JP>>
+
+<<SUp Leon>>
+LÉON WEIRICH: I'm not implying anything, listen... You have to be calm and collected if you want to achieve peaceful long-lasting change. Working up these people into a fervour with all this talk of heroes, many whom are slaves to the establishment with nothing much to lose, and then penning them into a strike? It could easily get out of control, JP.
+LÉON WEIRICH: All it takes is a few rogue radicals to bring some firearms and commit some atrocity they shouldn't for the military to show up, and then we'll have real a massacre on our hands. I know you fancy yourself a great leader, but we can't take these risks when people's lives are on the line. 
+LÉON WEIRICH: And what would that achieve, anyway? Violence only begets violence. The people have had enough killing and destruction, and we would lose all their support. We have to stick to our beliefs and fight for them where it matters, peacefully and diplomatically.
+<<SDown Leon>>
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Don't worry about it Leon, I can handle it. I'm not here to start a revolution, and we've all had enough massacres these last few years. I'll keep steady and fight the good fight, just like Jean would have done.
+<<SDown JP>>
+
+There is a pause as JP hesitates and sighs, looking down, looking within himself. Leon walks along quietly, knowing his friend has something more to say.
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: It's just... sometimes it feels like we haven't done much in the grand scheme of things, you know? Schortgen went so far, farther than anybody before him, and still he could not escape his undignified fate.
+JEAN-PIERRE BAUSCH: How many others like him must be before real change occurs? It feels like we could do much more... if only we--
+<<SDown JP>>
+
+Leon interjects with his own ideas before JP gets too carried away.
+
+<<SUp Leon>>
+LÉON WEIRICH: But there is more we can do, JP. You and I, we have the chance to make real changes come to fruition, we just have to stay the course and see them through. Our movement's support keeps growing and it's bigger than ever, we just have to take the fight to the right place. 
+LÉON WEIRICH: The people like you and stand behind your message, but you're thinking too big, trying to do too much too fast. Why don't you focus on your energy towards your local community? 
+LÉON WEIRICH: Help the people directly, change their lives for the better, and kickstart some real change from the ground-up.
+<<SDown Leon>>
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: I suppose you're right. Life isn't great for the average person in Rümelingen, not just for us miners. Some basic improvements could really go a long way for everyone there. I do already have some ideas in mind...
+<<SDown JP>>
+
+Leon's eyes light up, happy that he has turned his friend away from ceaseless protests and hopeful that he has inspired JP to take a more sensible path to achieve his ambitions.
+
+<<SUp Leon>>
+LÉON WEIRICH: LÉON WEIRICH: You're a good man, JP. You too will go a long way, longer than Jean Schortgen I believe. You have a lot in common. I admire your ambition and endless drive, and I trust you'll put to good use.
+LÉON WEIRICH: I'm sure we'll be great colleagues in the Socialist Party and sit side by side in parliament some day.
+<<SDown Leon>>
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Yeah, thanks old man, you're not too bad yourself. So what's your plan anyway?
+<<SDown JP>>
+
+<<SUp Leon>>
+LÉON WEIRICH: Oh me, I'm still working in Esch. You know, up in the mountains. Been doing some work with the heavy industry workers union, but my hope is to branch out into the local Esch council, maybe become mayor. 
+LÉON WEIRICH: I want to do more for my town. It's a beautiful open natural area, perfect to raise a family and have a peaceful life. I see its potential and I can't bear watch it stagnate along.
+<<SDown Leon>>
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: So you just want to sit up in there in the mountains until you die?
+<<SDown JP>>	
+
+<<SUp Leon>>
+LÉON WEIRICH: *Chuckles* Maybe you're still too young to understand, JP, but living an undisturbed existence surrounded by your family, in the freedom the countryside grants you, is all any man could ever want.
+LÉON WEIRICH: How's your family been?
+<<SDown Leon>>
+
+JP is caught off-guard and takes a moment, scrounging deep into his brain for the last memory he has with his family.
+
+<<SUp JP>>
+JEAN-PIERRE BAUSCH: Well you know Marguerite, she's a good cat. Always up to something, does what she can to take care of the kids and keep them in line. Yeah, they're doing good. 
+<<SDown JP>>	
+
+Leon senses a stark and unusual lack of confidence in JP's voice.
+
+<<SUp Leon>>
+LÉON WEIRICH: You haven't been with them much lately, have you?
+<<SDown Leon>>
+
+
+
+
+===
