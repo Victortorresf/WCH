@@ -8,14 +8,13 @@ public class ClickManager : MonoBehaviour
 {
     [SerializeField]
     private Camera cam;
-    AudioSource audioClick;
+    public AudioSource audioClick;
     public AudioClip clip;
     bool isPaused = false;
 
     // Start is called before the first frame update
     void Start()
-    {
-        audioClick = FindObjectOfType<AudioSource>();
+    {       
         audioClick.clip = clip;
         audioClick.loop = false;
     }

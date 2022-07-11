@@ -1691,10 +1691,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 198b4d927eb1ce047a0d2f4cf628838a, type: 3}
   - {fileID: 21300000, guid: 29bbd7792277ef3419dc7b91a4f1255d, type: 3}
   - {fileID: 21300000, guid: 77d8f11e4af00594c8aaf1784c1dd7a8, type: 3}
-  loadAudio:
-  - {fileID: 8300000, guid: 1f9607a7d89d843439ab1d3467d2f54a, type: 3}
-  - {fileID: 8300000, guid: 6076163f000d35246a5a23e13ae9de25, type: 3}
-  - {fileID: 8300000, guid: 5b23cdd00116c4748b48d312c9dc9f18, type: 3}
+  loadAudio: []
   useResourcesFolders: 0
   defaultTint: {r: 0.721237, g: 0.79072744, b: 0.8455882, a: 1}
   highlightTint: {r: 1, g: 1, b: 1, a: 1}
@@ -1739,8 +1736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -22.86}
-  m_SizeDelta: {x: -86, y: -78.8}
+  m_AnchoredPosition: {x: -43.290405, y: -18.3816}
+  m_SizeDelta: {x: -172.5808, y: -69.8433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7478006007646868820
 CanvasRenderer:
