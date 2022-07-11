@@ -12,7 +12,12 @@ ModelImporter:
   - first:
       74: -2349785766276291756
     second: armature_book|EmptyAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: book
+    second: {fileID: 2100000, guid: edc285cbb93ae4c43bacdc5a5566277d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
